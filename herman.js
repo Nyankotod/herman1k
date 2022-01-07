@@ -151,18 +151,18 @@ module.exports = simple = async (simple, mek, _welkom) => {
 //━━━━━━━━━━━━━━━[ CONNECTION 1 ]━━━━━━━━━━━━━━━━━//
 
 		mess = {
-			wait: '*Tunggu Sebentar..* ... !',
+			wait: '*Tunggu bentar Asw..* ... !',
 			success: '*Succes..*',
 			error: {
-				stick: 'Yahh Gagal Kak.. Pada Saat pembuatan  stickernya.! Coba Lagi deh Kak:)! ',
-				Iv: 'Yahh Link Nya Erorr Kak :( !'
+				stick: 'Gagal kan kontol.. Pada Saat pembuatan  stickernya! ',
+				Iv: 'Kalo Nyari Link Yang Bener Ini Error' Asu !'
 			},
 			only: {
-				admin: 'Fitur Khusus Admin !!',
-				group: 'Fitur Khusus Grup !!'
+				admin: 'Lu Bukan Admin !!',
+				group: 'Di Grup Fitur Nya !!'
 			}
 		}
-		faketeks = '©Hêrmåñ メ Bo†z ×͜×' //Ganti Aja Nama Luh
+		faketeks = '©Nyanko メ Bo†z ×͜×' //Ganti Aja Nama Luh
 		const isUrl = (url) => {
         return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
         }
@@ -221,7 +221,7 @@ const adyt = {
 "title": `Hallo ${pushname}`,
 "body": `hy`, 
 "mediaType": "2", 
-"mediaUrl": "https://youtube.com/shorts/b_L5jlwrFRs?feature=share", 
+"mediaUrl": "https://xnxx90.com", 
 "thumbnail": fs.readFileSync('./poto/YENI.jpg')
 }
 
@@ -830,10 +830,9 @@ oy =`
 🐣 _Status : ${isOwner ? 'Owner' : 'User'}_
 🐣 _Nama User : ${pushname}_
 🐣 _Nomor User : ${sender.split('@')[0]}_
-_*Youtube Owner*_
+_*Web Kebanggaan*_
 
-https://youtube.com/channel/UCPhU6uA_3gUaEvyrFZFgJqg
-_SubsCribe_
+https://xnxx.com
 
 _*LANJUT? KLIK BUTTON DI BAWAH*_
 `
@@ -882,16 +881,16 @@ Jam : ${time}
 HARI : ${week}, ${date}
 𝐃𝐨𝐧'𝐭 𝐒𝐩𝐚𝐦`
 oy =`
-*_Jasa Sewa Bot By : ©Hêrmåñ メ Bo†z ×͜×
+*_Jasa Sewa Bot By : ©Nyanko メ Bo†z ×͜×
 *>>>>>>>> *LIST HARGA* >>>>>>>>*
 [🔥] . _Fitur Bot Banyak And Ada Catalog Menu_
 
-🐣. _*2Minggu : Rp. 3.000 [ Promo ]*_
-🐣. _*1Bulan : Rp. 5.000 [ Promo ]*_
-🐣. _*Manent : Rp. 10.000 [ Promo ]*_
+🐣. _*2Minggu : Rp. 10.000 [ Promo ]*_
+🐣. _*1Bulan : Rp. 20.000 [ Promo ]*_
+🐣. _*Manent : Rp. 30.000 [ Promo ]*_
 
  _Jika Anda Minat Bisa Chat Nomer Ini_
-_*🪀 Wa.me/6283146208804*_
+_*🪀 Wa.me/6285380917153*_
 _Note Jangan Spam_
 _*Maaf Jika Slow Respon Karena Sesuai Antrian*_`
 but = [
@@ -1369,7 +1368,7 @@ case 'original':
 simple.updatePresence(from, Presence.recording)
 img =  fs.readFileSync('./poto/herman.jpg')
 teks = `Hai ${pushname} 👋${tampilUcapan}
-I'M Hêrmåñ メ Bo†z ×͜×`
+I'M Nyanko メ Bo†z ×͜×`
 trans = `BOT INFO
 🗿  _*Nama Bot : ${botname}*_
 😨  _️Nama Owner : ${ownername}_
@@ -2963,28 +2962,28 @@ but = [
 { buttonId: `${prefix}dana`, buttonText: { displayText: 'DANA' }, type: 1 },
 { buttonId: `${prefix}ovo`, buttonText: { displayText: 'OVO' }, type: 1 }
 ]
-sendButton(from, "SEWA PERMANEN 15K", faketeks, but, mek)
+sendButton(from, "SEWA PERMANEN 30K", faketeks, but, mek)
 break
 case 'gopay':
 simple.updatePresence(from, Presence.recording)
 but = [
 { buttonId: `${prefix}done`, buttonText: { displayText: 'OWNER 🔥' }, type: 1 }
 ]
-sendButton(from, "GOPAY : 083146208804", faketeks, but, mek)
+sendButton(from, "GOPAY : __", faketeks, but, mek)
 break
 case 'dana':
 simple.updatePresence(from, Presence.recording)
 but = [
 { buttonId: `${prefix}done`, buttonText: { displayText: 'OWNER 🔥' }, type: 1 }
 ]
-sendButton(from, "DANA : 083146208804", faketeks, but, mek)
+sendButton(from, "DANA : __", faketeks, but, mek)
 break
 case 'ovo':
 simple.updatePresence(from, Presence.recording)
 but = [
 { buttonId: `${prefix}done`, buttonText: { displayText: 'OWNER 🔥' }, type: 1 }
 ]
-sendButton(from, "OVO : 083146208804", faketeks, but, mek)
+sendButton(from, "OVO : __", faketeks, but, mek)
 break
 
 //━━━━━━━━━━━━━━━[ FITUR ASUPAN ]━━━━━━━━━━━━━━━━━//
@@ -3649,6 +3648,9 @@ _*❕RULES BOT ${botname}*_
 🐼.DILARANG SPAM BOT
 ( *DELAY KON*)
 🐼.DILARANG NGEBANDINGIN BOT ( *KENA MENTAL BOT NYA BAPERAN* )
+
+🐼.DILARANG CHAT OWNER TANPA KEPENTINGAN
+
 🐣.DAH ITU AJA BANG
 
 
@@ -3708,9 +3710,9 @@ simple.updatePresence(from, Presence.recording)
 tod = `
  { *BIG PROMO TAHUN BARU*}
  1minggu menuju tahun baru promo SewaBot
-🐣 permanen RP. ~20.000~ jadi => Rp.13.000
-🐣 2minggu ~10.000~ jadi => 3.000
-🐣 Sebulan ~15.000~ jadi => 5.000
+🐣 permanen RP. ~20.000~ jadi => Rp.15.000
+🐣 2minggu ~10.000~ jadi => 5.000
+🐣 Sebulan ~15.000~ jadi => 10.000
 
 _Klik Buttonnya Kak :)_
 
